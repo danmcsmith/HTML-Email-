@@ -1,0 +1,61 @@
+html {
+    background: #F4F4F4;
+}
+body {
+    margin: 0 auto;
+    width: 600px;
+    height: 100%;
+    font-family: 'Crimson Text', serif;
+}
+.logo {
+    width: 170px;
+    margin-top: 27px;
+    margin-left: 245px;
+}
+.email-container {
+    margin: 0 auto;
+    background: #FFFFFF;
+    width: 600px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.email-container ul {
+    list-style: none;
+}
+.preheader {
+    @extend .email-container
+    background: #F4F4F4;
+    color: #F4F4F4;
+    font-size: 5px;
+}
+.signature {
+    margin: 0 auto;
+}
+.signature h3 {
+    margin: 5px auto;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 16px;
+    font-style: bold;
+}
+.signature p {
+    margin: 5px auto;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 13px;
+}
+.links {
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+.links li {
+    float: left;
+}
+.linkedin {
+    padding-top: 3px;
+    width: 14px;
+    height: 16px;
+}
